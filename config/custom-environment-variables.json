@@ -1,0 +1,21 @@
+{
+    "app": {
+        "host": "HOST",
+        "port": "PORT"
+    },
+    "author": {
+        "dev": "AUTHOR"
+    },
+    "firebaseadmin": {
+        "url": "FIREBASE_URL"
+    },
+    "firebase": {
+        "apikey": "APIKEY",
+        "authdomain": "AUTHDOMAIN",
+        "databaseurl": "DATABASEURL",
+        "projectid": "PROJECTID",
+        "storagebucket": "STORAGEBUCKET",
+        "messagingsenderid": "MESSAGINSENDERID",
+        "appid": "APPID"
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "nodejs-express-auth-firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 startOrRestart process.yml",
+    "pause": "pm2 stop process.yml",
+    "restart": "pm2 restart process.yml",
+    "stop": "pm2 delete process.yml",
+    "logs": "pm2 logs",
+    "develop": "pm2 startOrRestart process.yml && pm2 logs",
+    "clearport": "kill $(lsof -t -i:5000)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/jirayusnimyuyong/nodejs-express-auth-firebase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jirayusnimyuyong/nodejs-express-auth-firebase/issues"
+  },
+  "homepage": "https://gitlab.com/jirayusnimyuyong/nodejs-express-auth-firebase#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "config": "^3.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase": "^7.14.4",
+    "firebase-admin": "^8.12.1",
+    "pm2": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "eslint": "^7.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
