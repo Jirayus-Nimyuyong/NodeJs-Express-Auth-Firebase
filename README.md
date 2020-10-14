@@ -11,6 +11,6 @@ Look through the Node.Js docs here: [https://nodejs.org/en/docs/](https://nodejs
 
 Look through the Express docs here: [https://expressjs.com/](https://expressjs.com/)
 
-Look through the Passport.js docs here: [https://firebase.google.com/docs/auth](https://firebase.google.com/docs/auth)
+Look through the firebase docs here: [https://firebase.google.com/docs/auth](https://firebase.google.com/docs/auth)
 
 
